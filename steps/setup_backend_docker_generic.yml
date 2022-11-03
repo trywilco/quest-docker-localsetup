@@ -16,10 +16,12 @@ startFlow:
         params:
           person: head-of-rd
           messages:
-          - text: Once docker-compose finishes loading up, the backend should be running and able
+          - text: Once docker compose finishes loading up, the backend should be running and able
               to connect to the database.
             delay: 2000
           - text: "**After the server is up**, make sure you test it by **pointing your browser** to https://${user.codespace.name}-3000.githubpreview.dev/api/ping"
+            delay: 1000
+          - text: instruction[If you get an error message, make sure the docker compose up process finished running and try again.] 
             delay: 1000
       - actionId: bot_message
         params:
