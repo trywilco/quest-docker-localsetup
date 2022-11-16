@@ -48,7 +48,6 @@ trigger:
                 If that’s not the case - take your time and tell me once you're ready
                 :)
               delay: 2000
-              
           - actionId: bot_message
           params:
           person: senior-dev
