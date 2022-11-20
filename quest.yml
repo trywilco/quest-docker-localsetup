@@ -43,8 +43,6 @@ messages:
   questFinished:
     person: head-of-rd
     messages:
-    - text: Wonderful job! You've just crushed the last step of this project. 
-      delay: 1000
-    - text: We still have a lot of work ahead of us, so **[click here](${platform.home})**
-        when you're ready for your next project :)
-      delay: 700
+    - text: "**That's it!** You're now officially prepared for anything we might throw at you. Well, I hope you are, Carl certainly wasn't. Poor Carl."
+      delay: 3000
+    - text: Now, I believe it's time for your first assignment! So **:instruction[[click here](${platform.home})]** when you're ready for your next project :)
