@@ -24,7 +24,7 @@ startFlow:
           messages:
           - text: I bet you’re eager to get your hands dirty. Let’s set up your local environment so you can start exploring the system.
             delay: 2000
-          - text: "**First things first - :codeInstruction[download install Docker](https://docs.docker.com/get-docker/)** and write me back when you're **done**." 
+          - text: "**First things first - :codeInstruction[download and install Docker](https://docs.docker.com/get-docker/)** and write me back when you're **done**." 
             delay: 5500
 trigger:
   type: user_message
