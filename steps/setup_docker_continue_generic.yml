@@ -32,7 +32,7 @@ startFlow:
             delay: 4000
           - text: " - you can do that by :codeInstruction[installing Docker](https://docs.docker.com/get-docker/).**"
             delay: 5500
-          - text: **Tell me when you're done** with the installation. 
+          - text: "**Tell me when you're done** with the installation."
             delay: 3000
 trigger:
   type: user_message
