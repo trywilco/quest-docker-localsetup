@@ -30,7 +30,7 @@ startFlow:
             delay: 1300
           - text:  "**Then, and only after that** - you can set up your local environment and start exploring the system"
             delay: 4000
-          - text: " - you can do that by :instruction[installing Docker](https://docs.docker.com/get-docker/).**"
+          - text: " - you can do that by :instruction[installing Docker](https://docs.docker.com/get-docker/)."
             delay: 5500
           - text: "**Let me know when you're done** with the installation."
             delay: 3000
