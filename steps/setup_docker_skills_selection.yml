@@ -27,6 +27,8 @@ startFlow:
                     label: 'Communication'
                   - value: 'Documentation'
                     label: 'Documentation'
+                  - value: 'git'
+                    label: 'Git'
                   - value: 'Monitoring'
                     label: 'Monitoring'
                   - value: 'Operations'
