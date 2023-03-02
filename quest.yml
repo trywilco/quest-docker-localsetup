@@ -8,6 +8,7 @@ slogan: Our Journey Begins...
 duration: 0.0833
 questDependency: null
 shouldResetRepo: false
+repository: https://github.com/trywilco/Anythink-Market-Public
 steps:
 - setup_docker_framework_selection
 - setup_docker_githubsetup
