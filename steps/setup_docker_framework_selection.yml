@@ -48,6 +48,10 @@ trigger:
         params:
           field: "frameworks.backend"
           value: "${{formSubmission}}"
+      - actionId: update_user_props
+        params:
+          field: "onboarding.finishedIntroToAnythinkStep"
+          value: "true"
       - actionId: bot_message
         params:
           person: head-of-rd
